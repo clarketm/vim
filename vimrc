@@ -98,6 +98,11 @@ map <leader>tm :tabmove
 " cursor line color
 highlight CursorLine cterm=NONE ctermbg=235 guibg=235
 
+let g:togglecursor_default = "block"
+let g:togglecursor_insert = "line"
+let g:togglecursor_leave = "line"
+let g:togglecursor_disable_tmux = 0
+
 " let &t_ti.="\e[1 q"
 " let &t_SI.="\e[5 q"
 " let &t_EI.="\e[1 q"
