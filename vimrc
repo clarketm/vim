@@ -96,9 +96,13 @@ map <leader>tm :tabmove
 "augroup END
 
 " cursor line color
-hi CursorLine   cterm=NONE ctermbg=236 guibg=236
+highlight CursorLine cterm=NONE ctermbg=235 guibg=235
 
-" paste toggle key
+" let &t_ti.="\e[1 q"
+" let &t_SI.="\e[5 q"
+" let &t_EI.="\e[1 q"
+" let &t_te.="\e[0 q"
+
 set pastetoggle=<F3>
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
