@@ -26,6 +26,8 @@ set smartcase                     " But case-sensitive if expression contains a 
 set number                        " Show line numbers.
 set ruler                         " Show cursor position.
 
+set paste						  " disable autoindent on paste
+
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
 set cursorline
@@ -88,7 +90,16 @@ map <leader>tm :tabmove
 " autocmd FileType ruby setlocal foldmethod=syntax
 " autocmd FileType css  setlocal foldmethod=indent shiftwidth=2 tabstop=2
 
-hi CursorLine   cterm=NONE ctermbg=238 guibg=white
+"augroup myvimrchooks
+"	au!
+"	autocmd bufwritepost .vimrc source ~/.vimrc
+"augroup END
+
+" cursor line color
+hi CursorLine   cterm=NONE ctermbg=236 guibg=238
+
+" paste toggle key
+set pastetoggle=<F3>
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
