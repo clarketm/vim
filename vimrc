@@ -96,7 +96,7 @@ map <leader>tm :tabmove
 "augroup END
 
 " cursor line color
-hi CursorLine   cterm=NONE ctermbg=236 guibg=238
+hi CursorLine   cterm=NONE ctermbg=236 guibg=236
 
 " paste toggle key
 set pastetoggle=<F3>
