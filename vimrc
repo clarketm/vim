@@ -32,7 +32,7 @@ set hlsearch                      " Highlight matches.
 set wrap                          " Turn on line wrapping.
 set scrolloff=3                   " Show 3 lines of context around the cursor.
 
-set mouse=a                     " Enable all mouse features.
+set mouse=a                       " Enable all mouse features.
 " set mouse=r
 
 set title                         " Set the terminal's title
