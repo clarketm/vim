@@ -99,7 +99,7 @@ map <leader>tm :tabmove
 "augroup END
 
 " cursor line color
-highlight CursorLine cterm=NONE ctermbg=235 guibg=235
+highlight CursorLine cterm=NONE ctermbg=235
 
 let g:togglecursor_default = "block"
 let g:togglecursor_insert = "line"
