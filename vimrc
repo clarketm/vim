@@ -51,7 +51,7 @@ set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 
 " UNCOMMENT TO USE
 set tabstop=4                     " Global tab width.
-" set softtabstop=4               " Control how many columns vim uses when you hit Tab in insert mode
+set softtabstop=4                 " Control how many columns vim uses when you hit Tab in insert mode
 set shiftwidth=2                  " And again, related.
 set expandtab                     " Use spaces instead of tabs
 
