@@ -26,7 +26,7 @@ set smartcase                     " But case-sensitive if expression contains a 
 set number                        " Show line numbers.
 set ruler                         " Show cursor position.
 
-set paste						  " disable autoindent on paste
+set paste						  " Disable autoindent on paste
 
 set incsearch                     " Highlight matches as you type.
 set hlsearch                      " Highlight matches.
@@ -41,6 +41,8 @@ set mouse=a                       " Enable all mouse features.
 
 set title                         " Set the terminal's title
 
+" set nolist
+
 set visualbell t_vb=              " No beeping or flashing.
 
 set nobackup                      " Don't make a backup before overwriting a file.
@@ -49,8 +51,9 @@ set directory=$HOME/.vim/tmp//,.  " Keep swap files in one location
 
 " UNCOMMENT TO USE
 set tabstop=4                     " Global tab width.
-"set shiftwidth=2                 " And again, related.
-"set expandtab                    " Use spaces instead of tabs
+" set softtabstop=4               " Control how many columns vim uses when you hit Tab in insert mode
+set shiftwidth=2                  " And again, related.
+set expandtab                     " Use spaces instead of tabs
 
 set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
@@ -112,3 +115,6 @@ set pastetoggle=<F3>
 
 " For the MakeGreen plugin and Ruby RSpec. Uncomment to use.
 autocmd BufNewFile,BufRead *_spec.rb compiler rspec
+
+" Golang
+let g:go_highlight_trailing_whitespace_error=0
