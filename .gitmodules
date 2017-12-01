@@ -1,0 +1,9 @@
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/vim-togglecursor"]
+	path = bundle/vim-togglecursor
+	url = https://github.com/jszakmeister/vim-togglecursor.git
+[submodule "bundle/vim-taglist"]
+	path = bundle/vim-taglist
+	url = https://github.com/vim-scripts/taglist.vim.git
