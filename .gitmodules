@@ -7,9 +7,24 @@
 [submodule "bundle/vim-taglist"]
 	path = bundle/vim-taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
-[submodule "bundle/bundle/vim-rooter"]
+[submodule "bundle/vim-rooter"]
 	path = bundle/bundle/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
-[submodule "bundle/bundle/vim-peepopen"]
+[submodule "bundle/vim-peepopen"]
 	path = bundle/bundle/vim-peepopen
 	url = https://github.com/shemerey/vim-peepopen.git
+[submodule "bundle/msanders-snipmate.vim"]
+	path = bundle/msanders-snipmate.vim
+	url = https://github.com/msanders/snipmate.vim.git
+[submodule "bundle/tpope-vim-ragtag"]
+	path = bundle/tpope-vim-ragtag
+	url = https://github.com/tpope/vim-ragtag.git
+[submodule "bundle/tpope-vim-rails"]
+	path = bundle/tpope-vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "bundle/tpope-vim-surround"]
+	path = bundle/tpope-vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-makegreen"]
+	path = bundle/vim-makegreen
+	url = https://github.com/reinh/vim-makegreen.git
