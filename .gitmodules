@@ -11,7 +11,7 @@
 	path = bundle/bundle/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
 [submodule "bundle/vim-peepopen"]
-	path = bundle/bundle/vim-peepopen
+	path = bundle/vim-peepopen
 	url = https://github.com/shemerey/vim-peepopen.git
 [submodule "bundle/msanders-snipmate.vim"]
 	path = bundle/msanders-snipmate.vim
