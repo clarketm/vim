@@ -1,0 +1,15 @@
+https://github.com/mileszs/ack.vim.git bundle/ack
+https://github.com/tpope/vim-endwise.git bundle/endwise
+https://github.com/msanders/snipmate.vim.git bundle/msanders-snipmate.vim
+https://github.com/tpope/vim-ragtag.git bundle/tpope-vim-ragtag
+https://github.com/tpope/vim-rails.git bundle/tpope-vim-rails
+https://github.com/tpope/vim-surround.git bundle/tpope-vim-surround
+https://github.com/tpope/vim-fugitive.git bundle/vim-fugitive
+https://github.com/tpope/vim-git.git bundle/vim-git
+https://github.com/pangloss/vim-javascript.git bundle/vim-javascript
+https://github.com/reinh/vim-makegreen.git bundle/vim-makegreen
+https://github.com/tpope/vim-markdown.git bundle/vim-markdown
+https://github.com/shemerey/vim-peepopen.git bundle/vim-peepopen
+https://github.com/vim-scripts/taglist.vim.git bundle/vim-taglist
+https://github.com/jszakmeister/vim-togglecursor.git bundle/vim-togglecursor
+https://github.com/tpope/vim-unimpaired.git bundle/vim-unimpaired
