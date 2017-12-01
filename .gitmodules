@@ -10,3 +10,6 @@
 [submodule "bundle/bundle/vim-rooter"]
 	path = bundle/bundle/vim-rooter
 	url = https://github.com/airblade/vim-rooter.git
+[submodule "bundle/bundle/vim-peepopen"]
+	path = bundle/bundle/vim-peepopen
+	url = https://github.com/shemerey/vim-peepopen.git
