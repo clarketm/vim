@@ -21,7 +21,7 @@
 	url = https://github.com/jszakmeister/vim-togglecursor.git
 [submodule "bundle/tsaleh-vim-tcomment"]
 	path = bundle/tsaleh-vim-tcomment
-	url = http://github.com/tsaleh/vim-tcomment.git
+	url = https://github.com/tomtom/tcomment_vim.git
 [submodule "bundle/ack"]
 	path = bundle/ack
 	url = https://github.com/mileszs/ack.vim.git
