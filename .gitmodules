@@ -43,3 +43,6 @@
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
 	url = https://github.com/clarketm/vim-git.git
+[submodule "bundle/tsaleh-vim-tcomment"]
+	path = bundle/tsaleh-vim-tcomment
+	url = https://github.com/clarketm/tsaleh-vim-tcomment.git
